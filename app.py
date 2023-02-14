@@ -57,7 +57,7 @@ with st.form("step_3"):
     Answer the following questions about the contents of the file: "{questions}"
     """
     #authenticate openai
-    openai.api_key = "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"
+    openai.api_key = openai_key
     # Set up the model
     model_engine = "text-davinci-003"
     # Generate a response
